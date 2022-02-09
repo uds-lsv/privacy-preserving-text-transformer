@@ -7,7 +7,7 @@ Visit the [official Gitlab](https://gitlab.inria.fr/comprise/text_transformer) o
 
 ### Data
 
-We also release the humanly annotated VerbMobil NER dataset (in the spoken dialog domain) used in our Interspeech paper to encourage more research in this area. Since the VerbMobil is not freely available, we release a some scripts that can be used to automatically align the tags with words in the original corpus if it is bought.  The [tags](https://github.com/uds-lsv/privacy-preserving-text-transformer/tree/main/data/verbmobil-tags) can be found 
+We also release the humanly annotated VerbMobil NER dataset (in the spoken dialog domain) used in our Interspeech paper to encourage more research in this area. The corpus has been annotated for PER, ORG, LOC, DATE and TIME. Since the VerbMobil is not freely available, we release some scripts that can be used to automatically align the tags with words in the original corpus if it is bought.  The [tags](https://github.com/uds-lsv/privacy-preserving-text-transformer/tree/main/data/verbmobil-tags) are in this repo. 
 
 * python scripts
   * clean_verbmobil_utt.py : to automatically extract dialog files of VM6.1, VM8.1, VM13.1, VM23.1, VM28.1, VM31.1, VM42.1, VM43.1, VM50.1, and remove unused tags. This generates a directory "data/VerbMobil_cleaned"
