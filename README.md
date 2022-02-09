@@ -14,7 +14,7 @@ We also release the humanly annotated VerbMobil NER dataset (in the spoken dialo
 
   * export_unannotated_texts.py: extract the utterance per dialog into a conll format. This generates a directory "data/VerbMobil_per_dialog" with tokens in each dialog file arranged vertically (CONLL format)
 
-  * extract_annotated_tags.py : automatically compares annotated [tags](https://github.com/uds-lsv/privacy-preserving-text-transformer/tree/main/data/verbmobil-tags) and preprocessed words in "data/VerbMobil_per_dialog", and output the annotated corpus in the CoNLL format. 
+  * extract_annotated_tags.py : automatically compares annotated [tags](https://github.com/uds-lsv/privacy-preserving-text-transformer/tree/main/data/verbmobil-tags) and preprocessed words in "data/VerbMobil_per_dialog", and output the annotated corpus in CoNLL format. 
 
 
 
