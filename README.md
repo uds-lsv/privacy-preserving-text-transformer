@@ -3,7 +3,7 @@
 This repository contains the link to our privacy preserving text transformer implementation, an approach to automatically replace sensitive named entities with an alternative of this same named entity type selected randomly from the corpus. 
 
 ### Code:
-Visit the [official Gitlab](https://gitlab.inria.fr/comprise/text_transformer) of the COMPRISE H2020 project. 
+Visit the [official Gitlab](https://gitlab.inria.fr/comprise/text_transformer) of the [COMPRISE H2020 project](https://www.compriseh2020.eu/). 
 
 ### Data
 
