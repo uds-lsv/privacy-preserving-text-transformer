@@ -7,14 +7,14 @@ Visit the [official Gitlab](https://gitlab.inria.fr/comprise/text_transformer) o
 
 ### Data
 
-We also release the humanly annotated VerbMobil NER dataset (in the spoken dialog domain) used in our Interspeech paper to encourage more research in this area. Since the VerbMobil is not freely available, we release a some scripts that can be used to automatically align the tags with words in the original corpus if it is bought.  The [tags](https://github.com/uds-lsv/privacy-preserving-text-transformer/data/verbmobil-tags/) can be found 
+We also release the humanly annotated VerbMobil NER dataset (in the spoken dialog domain) used in our Interspeech paper to encourage more research in this area. Since the VerbMobil is not freely available, we release a some scripts that can be used to automatically align the tags with words in the original corpus if it is bought.  The [tags](https://github.com/uds-lsv/privacy-preserving-text-transformer/tree/main/data/verbmobil-tags) can be found 
 
 * python scripts
   * clean_verbmobil_utt.py : to automatically extract dialog files of VM6.1, VM8.1, VM13.1, VM23.1, VM28.1, VM31.1, VM42.1, VM43.1, VM50.1, and remove unused tags. This generates a directory "data/VerbMobil_cleaned"
 
   * export_unannotated_texts.py: extract the utterance per dialog into a conll format. This generates a directory "data/VerbMobil_per_dialog" with tokens in each dialog file arranged vertically (CONLL format)
 
-  * extract_annotated_tags.py : automatically compares annotated [tags](https://github.com/uds-lsv/privacy-preserving-text-transformer/data/verbmobil-tags/) and preprocessed words in "data/VerbMobil_per_dialog", and output the annotated corpus in the CoNLL format. 
+  * extract_annotated_tags.py : automatically compares annotated [tags](https://github.com/uds-lsv/privacy-preserving-text-transformer/tree/main/data/verbmobil-tags) and preprocessed words in "data/VerbMobil_per_dialog", and output the annotated corpus in the CoNLL format. 
 
 
 
