@@ -26,7 +26,7 @@
 [WORD] O
 [WORD] O
 [WORD] O
- 
+[WORD] O
 [WORD] B-DATE
 [WORD] O
 [WORD] O
@@ -61,7 +61,7 @@
 [WORD] O
 [WORD] O
 [WORD] B-DATE
- 
+[WORD] O
  
 [WORD] O
 [WORD] O
@@ -92,7 +92,7 @@
 [WORD] O
 [WORD] O
 [WORD] B-DATE
- 
+[WORD] O
 [WORD] O
 [WORD] O
 [WORD] O
@@ -140,17 +140,17 @@
 [WORD] O
 [WORD] O
 [WORD] O
- 
- 
-[WORD] O
-[WORD] O
-[WORD] O
-[WORD] O
-[WORD] O
-[WORD] O
-[WORD] O
 [WORD] O
  
+[WORD] O
+[WORD] O
+[WORD] O
+[WORD] O
+[WORD] O
+[WORD] O
+[WORD] O
+[WORD] O
+[WORD] O
 [WORD] O
 [WORD] O
 [WORD] O
@@ -195,24 +195,7 @@
 [WORD] I-DATE
 [WORD] I-DATE
 [WORD] I-DATE
- 
 [WORD] O
-[WORD] O
-[WORD] O
-[WORD] B-LOC
-[WORD] I-LOC
-[WORD] I-LOC
-[WORD] O
-[WORD] O
- 
- 
-[WORD] O
-[WORD] O
-[WORD] B-TIME
-[WORD] O
-[WORD] B-DATE
-[WORD] I-DATE
-[WORD] I-DATE
 [WORD] O
 [WORD] O
 [WORD] O
@@ -222,6 +205,24 @@
 [WORD] O
 [WORD] O
 [WORD] O
+ 
+[WORD] O
+[WORD] O
+[WORD] B-TIME
+[WORD] O
+[WORD] B-DATE
+[WORD] I-DATE
+[WORD] I-DATE
+[WORD] O
+[WORD] O
+[WORD] O
+[WORD] B-LOC
+[WORD] I-LOC
+[WORD] I-LOC
+[WORD] O
+[WORD] O
+[WORD] O
+[WORD] O
 [WORD] O
 [WORD] O
 [WORD] O
@@ -242,7 +243,6 @@
 [WORD] O
 [WORD] O
  
- 
 [WORD] O
 [WORD] O
 [WORD] O
@@ -261,7 +261,7 @@
 [WORD] O
 [WORD] O
 [WORD] O
- 
+[WORD] O
 [WORD] O
 [WORD] O
 [WORD] O
@@ -278,14 +278,14 @@
 [WORD] B-LOC
 [WORD] I-LOC
 [WORD] I-LOC
- 
- 
 [WORD] O
  
 [WORD] O
 [WORD] O
 [WORD] O
- 
 [WORD] O
- 
+[WORD] O
+[WORD] O
+[WORD] O
+[WORD] O
  
